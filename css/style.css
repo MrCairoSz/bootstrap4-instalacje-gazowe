@@ -1,0 +1,91 @@
+* {
+    --primary-color: #1dc7e9;
+    --secondary-color: rgba(0,0,0);
+}
+
+#logo {
+    background: var(--secondary-color);
+    position: relative;
+}
+
+#logo-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100px;
+}
+
+#logo-text .fas {
+    color: orangered;
+    font-size: 20px;
+    border: 1px orangered solid;
+    border-radius: 50%;
+}
+
+#navigation li {
+    font-size: 20px;
+}
+
+#navigation a:hover {
+    color: var(--primary-color);
+}
+
+#header {
+    background: url("../img/photo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    position: relative;
+}
+
+#header-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    min-height: 600px;
+}
+
+#header-text {
+    color: orangered;
+}
+
+#header-text p {
+    font-size: 22px;
+}
+
+#aboutUs .card {
+    min-height: 250px;
+}
+
+#offer {
+    background: url('../img/photo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#offer-text {
+    color: orangered;
+}
+
+#offer-text p {
+    color: #fff;
+    font-size: 22px;
+}
+
+#image {
+    background: url("../img/car1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height:300px;
+}
+
+footer {
+    background: var(--secondary-color);
+    font-size: 18px;
+}
